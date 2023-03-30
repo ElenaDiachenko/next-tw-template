@@ -1,0 +1,28 @@
+{
+	"printWidth": 80,
+	"tabWidth": 2,
+	"useTabs": true,
+	"semi": false,
+	"singleQuote": true,
+	"trailingComma": "none",
+	"bracketSpacing": true,
+	"bracketSameLine": true,
+	"jsxBracketSameLine": false,
+	"arrowParens": "avoid",
+	"importOrder": [
+		"^(next/(.*)$)|^(next$)",
+		"<THIRD_PARTY_MODULES>",
+		"^@/components/(.*)$",
+		"^@/layout/(.*)$",
+		"^@/assets/(.*)$",
+		"^@config/(.*)$",
+		"^@/store/(.*)$",
+		"^@hooks/(.*)$",
+		"^@/types/(.*)$",
+		"^@/utils/(.*)$",
+		"^@/api/(.*)$",
+		"^[./]"
+	],
+	"importOrderSeparation": true,
+	"importOrderSortSpecifiers": true
+}
